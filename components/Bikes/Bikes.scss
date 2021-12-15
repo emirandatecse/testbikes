@@ -1,0 +1,29 @@
+.bikes{
+
+    .bikes-items{
+        display: flex;
+        width: 100%;
+        background-color:#f2f2f2;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .bikes-items-column{
+            display: grid;
+            grid-template-columns: 20% 100%;
+        }
+        .bikes-images{
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            
+        }
+        .bikes-descripcion{
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: auto;
+            overflow: hidden;
+            
+        }
+    }
+}
